@@ -1,0 +1,15 @@
+1.What is difference between throw vs throws keyword?
+2.How to create custom user exception?
+3.What happen if we didn't close the resources?
+4.What is resource leak and how to aviod it?
+5.What is suppressed exception?
+6.What is Masked exception?
+7.What are the important java exception items?
+8.How to Document and declare each exception precisely?
+9.How to use auto closeable resource?
+10.How to prevent runtime exception?
+11.What is assertion?
+12.How to create exception object?
+13.Why assertion used for non-public methods?
+14.What is best way to throw exception?
+15.How to easily identify exception and their solution?
