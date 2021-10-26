@@ -1,0 +1,17 @@
+How to improve logic building in programming:
+
+1.Concept is key(Learn DSA)
+2.Burj khalifa approach
+(Easy 5 -> Medium 3-> Hard 2)
+hacker rank -> Code force or Code chef
+3.Consistency
+4.Reward yourself
+5.Solve puzzles  (Math + thinking ability)
+6.Your real friend -> Hint
+7.Go Smooth (Focus on concept not number)
+8.Forgot all the topics (Recall it in frequent peroid)
+9.Time is important think(Solve it in given period)
+10.Pair programming - Today's need (Healthy competition)
+11.Who are winners?(Before go macro realize the topic clear)
+Winners == extra effort
+12.One difficult qsn per day is unique and practical strategy of a topper
