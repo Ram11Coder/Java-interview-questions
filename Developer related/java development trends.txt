@@ -1,0 +1,6 @@
+java development trends(Business point of view)
+1.Big data processing
+2.Web development
+3.Andriod development
+4.Financial services
+5.IOT

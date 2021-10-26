@@ -1,0 +1,36 @@
+Java Naming convention or java coding standards:
+Benefits of standard coding:
+1.Improves the readability
+2.It allows easier development of automated tools to assist in the prog development
+
+Class:
+The class name must be start with upper case
+class name be should be noun
+ex:
+String 
+Interface:
+Name should be adjective
+Ex:Clonable
+
+Methods:
+Should start with lowercase letter(Camelcase)
+Ex:
+toString()
+getName()
+
+Variables:
+Camelcase
+Ex:
+student
+
+Constants:
+All caps
+Ex:
+MAX_SIZE
+
+
+Source file organization:
+package declaration;
+import declaration;
+class comments including description,author and version
+one or more class or interface declarations

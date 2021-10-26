@@ -1,0 +1,15 @@
+Java competitive programming:
+----------------------------
+
+1.Good coding practise
+2.Test case generation
+3.Fast I/O for java
+4.Github integration
+5.Testing through multiplr solvers
+6.Java 8 features
+7.Multithreading
+
+Best IDE:
+---------
+Intellij ide
+Here you to solve problem not code

@@ -1,0 +1,11 @@
+Hibernate
+
+What is the diff bw SQL and HQL?
+How do you map java app into database?
+Types of mapping?
+Can you explain any one to one vs one to many relation?
+Which scenerios you worked on that application?(Above questions)
+Which scenerios you worked on those mappings?
+Transaction management in hibernate?
+Diff bw transaction commit and transaction rollback?
+Have you any examples of wrote test case using junit? 

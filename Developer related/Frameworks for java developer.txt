@@ -1,0 +1,9 @@
+Frameworks for java developer
+1.Spring BOOT
+2.Spring cloud(Mirco service)->(Configuarion management,service discovery,circuit breaks,client side load balancing,Intelligent routing,Distributed session)
+3.Apace spark -> big data framework
+4.React
+5.Apache haddoop-> Big data framework(It is based upon mapreduce pattern)
+6.Spring security -> Websecurity
+7.Angular->Creates dynamic website for client side
+8.Bootstrap -> Creates look and feel webpage(HTML and CSS)

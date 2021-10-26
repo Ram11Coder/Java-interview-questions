@@ -1,0 +1,11 @@
+10 tips to become a better java developer:
+1.Learn devops tools
+2.Learn java better(Updates)
+3.Learn springboot
+4.Learn unit testing
+5.Learn APIs and Libraries
+6.Learn JVM Internals
+7.Learn Design patterns
+8.Learn kotlin
+9.Learn Micro services
+10.Learn your IDE better

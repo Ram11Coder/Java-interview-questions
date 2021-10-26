@@ -1,0 +1,13 @@
+Adv java qsn:
+
+Spring MVC vs Spring Boot?
+What is the use of work profiles in spring boot
+what are the types of spring boot dev tools used?
+What are spring annotation you worked on?
+Real time experience of spring annoatation?
+How to enable auto wiring in spring boot?
+What is the diff types of auto wiring?
+What are the diff types bean scopes?
+How to handle exception in spring boot?
+How to explain Spring MVC architecture?
+How to explain project architecture?

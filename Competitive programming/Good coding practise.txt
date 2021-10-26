@@ -1,0 +1,36 @@
+1.Good coding practise
+----------------------
+Consideration:
+
+correctness
+***********
+-> We want to make our program testable(Create a class then put your main logic)
+-> Use junit to create the test cases
+-> take a look at your check any over flow possibility(Any type of data type over flow)
+
+efficiency
+**********
+-> whether our algorithm is fast enough
+{
+if there are 10^8 then can be done in 1 sec
+10^7-> 0(n)
+10^6->O(n* logn)
+10^4->O(n*n)
+}
+
+further optimization
+********************
+->Use correct access modifiers
+->use final keyword
+->IO should be fast enough
+->Avoid create many object creation
+->Aviod initializing the large array many times
+-> what the function should do(Naming should readable)
+
+
+debuggable
+**********
+-> Not using too may global variables (It will confuse)
+-> Use as many java library function
+-> Use as many inbuild functions
+ex: "".indexOf();->O(n)

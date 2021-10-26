@@ -1,0 +1,73 @@
+Core Java interview questions:
+
+Why strings are immutable?
+When should we use protected method?
+What is static and instance initializer in java API?
+What happened when we change string object?
+What inside valueOf() static method?
+Why generics using only wrapper classes?
+Why wrapper not used in Arrays?
+What is Autoboxing and Autounboxing?
+what is IS-A and HAS-A relationship?
+What is compositition?
+What is aggregation?
+WHat is super() method?
+What is javap?
+why static method cannot return obj ref?
+Why static method can't overridden?
+What is obj cloning?
+What is diff bw comporator and comparable?
+What is marker interface?
+WHy clone method used?
+what is functional interface?
+what is diff b/w inheritance and interface?
+Have you worked on thread concept?
+What is exception?
+Diff types of exception?
+What is the use of finally block?
+What will happen if don't close the resource or connection?
+Is that lead to memory leak or memory management?
+How you ever face memory leaks in your application?
+What is the use of collection?
+Collection vs collections?
+Linkedlist vs Arraylist?
+How hashmaps works?
+How to update any hash position in your project?
+How to handle hash position in your current project?
+Have you used any features on java  streams?
+What is data hiding?
+What is the use of data hiding?
+What is abstraction?
+Adv of abstraction?
+What is encapsulation?
+Diff bw encapsulation and abstraction?
+What is inheritance?
+What is method signature?
+What is polymorphism?
+Diff bw method overloading vs overridding?
+Loose coupling vs tight coupling?
+class vs object?
+How to prevent a class from being subclass in java?
+Can we access private method in java ?
+Diff bw checked and unched exception?
+How to fix concurrent modification exception?
+Abstract vs interface in java 8?
+When to use interface and abstract class?
+Have you applied object cloning in java?
+Hashset vs hash map?
+When to use transient variable?
+Give an example from your project when to use arraylisy and linked list?
+String buffer vs stringbuilder?
+How to create user def exception?
+What is better ways to display exception in java?
+When should we go for join()?
+Types of exception faced in the project how do you resolved it?
+Why do we need generics?
+Bufferreader vs Scanner?
+Collection concepts in real world example?
+OOPs with real world example?
+Singleton class in java?
+Constructor vs method?
+Explain public static void main(String args)?
+Heap vs stack?
+Classnotfoundexception vs NoclassDefFoundError?
