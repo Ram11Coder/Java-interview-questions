@@ -1,0 +1,43 @@
+How to become a fullstack developer
+-----------------------------------
+Frontend Technologies:
+HTML5,CSS3,JS(*)
+
+Frontend frameworks:
+Angular or React (Choose one)
+Jquery and Bootstrap(Essentials but not mandatory)
+
+Backend Technologies:
+Development Lang:
+J2SE->(Multithreading,exception handling,Java streams,functional programming and lambdas,Executor services,JointForkPool,Async,JDBC,Annotation,Dependency injection,SOLID Principle,Design pattern etc...)
+
+J2EE->(Jsp,servlet,JPA,JAX-RS)
+MVC framework-> Spring MVC also spring Boot
+ORM framework-> Hibernate
+
+Database:
+
+MYSQL,Postgres,Oracle(Choose any)
+Nosql-> MongoDB
+
+Testing:
+Junit5,Mockito,RestAssured,TestNG
+
+Containerization:
+Docker and Kubernetes
+
+Devops Essentials:
+CI/CD (How jenkins helps to acheive that)
+
+IDE:
+IDE and Debugger -> Choose any IDE (preferable IntelliJ) and learn how to debug an application
+Text editor -> VSCode
+API Tools -> Postman,Jackson,Log4j
+Os-> Linux based operating system
+
+Version control:
+Git or githb
+
+Good to know technologies:
+-------------------------
+Learn Microservices (Spring Cloud,micronaut)
