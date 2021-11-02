@@ -1,0 +1,14 @@
+Real time example for java collection in the project?
+1.Fetch data from database and store each record into suitable collection class
+
+2.Hold the data and transfer the data from UI to database and vice versa
+
+3.Removing of the duplicate data (String or object) by using sets
+
+4.Search the data in the collection class
+
+5.Storing the objects in key value pair-> hashmap
+
+
+sort the age based on employees .in this case collections.sort()
+Map interface -> it is use create memmory cache suppose requirement is 1st 100 records needs to be in default selection. whenever user login to the system.Map interface used to store 100 records in cache when app gets initiate.

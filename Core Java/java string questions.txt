@@ -1,0 +1,19 @@
+1.Program to count occurrence of characters in string?
+2.Program to convert Upper to lower case and vice versa
+3.Program to remove duplicate character in a string?
+4.Program to replace vowels with special character($)
+5.Program to split a sentence into words
+6.Program to capitalize first letter of each word of a string
+7.Program to reverse each word in a sentence
+8.Program to reverse a sentence
+9.Program to reverse a sentence using recursion
+10.Program to count char in a string
+11.Program to count occurrenc of substring in a string
+12.Program to count a words in a string
+13.Program to check given string is anagram
+14.Program to sort names bases on their values
+15.Program to find duplicate char in a string
+16.Program to replace special char in a string
+17.Convert string into character array in java
+18.Sort names in alphabetical order in java
+19.Check input string is a palindrome or not

@@ -1,0 +1,21 @@
+1.What is instance var and local variable?
+2.What is encapsulation?
+3.What are various specifiers in java?
+4.What is the use of static keyword?
+5.WHat is final keyword?
+6.What is diff bw final and abstract method?
+7.Can we declare mainmethod as private?
+8.abstract vs interface?
+9.Diff bew final, finally and finalize?
+10.method overloading vs overriding?
+11.What is constructor and types?
+12.Can we override a method by using same method name and arg but diff return type?
+13.can we call a non static method from static method?
+14.diff bw == and equals?
+15.What do you know about interface in java?
+16.Diff bw hash map and hash table?
+17.Diff bw comparable and comparator?
+18.Diif bw arraylist and linked list?
+19.Diff bw list and set?
+20.Diff bw string ,string buffer and stringBuilder?
+21.Stream api vs Collection api?
