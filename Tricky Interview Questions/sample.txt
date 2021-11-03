@@ -1,0 +1,3 @@
+This is a sample file
+it is for checking number of chars,words and also lines
+ t
