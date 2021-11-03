@@ -1,0 +1,108 @@
+Nareshit core java FAQ
+How to use this keyword and example?
+Why can't we use 'this' keyword inside static context?
+What is implicit and explicit casting?
+Why abstract can't be final and abstraction can't be static?
+Why a class can't be private and protected?
+When we use runnable interface to create thread?
+What is inheritance?
+Checked and unchecked exception?
+Why static block executes before main()?
+Why main() is public and static?
+Method overloading?
+When we use fullly qualified name instead of import?
+Where we use String to primitive data conversion?
+What is abstract class?
+What is boxing in java?
+Where we use try with multiple catch blocks?
+Why abstract can't be final and static?
+How to access static member in java application?
+What are the limitation of default constructor?
+What is default constructor?
+Why we can't collect object address into integer variable instead of class type?
+How JVM instantiate parent class in child object creation?
+Can we define main method inside abstract class?
+Can we overload main?
+How to access non static members in java application?
+How to instantiate class, abstract class and interface?
+What is the Diff between this() and super()?
+Types of inheritance?
+How Can we create object inside static block?
+WHat is diff bw block and method?
+WHat is diff bw static and non static variable?
+How to initialise an object?
+Diff bw POJO and Bean?
+Can a final class extends abstract class?
+What is exception and runtime error?
+What is syntactical error?
+Can we place instance variable inside interface?
+What is logical error in java?
+What is class? what is abstract class?
+How to implement multiple inheritance using interface?
+Can we define main method inside interface?
+What is default exception handler?
+When we call super() explicitly?
+What is POJO? Rules?
+What is immutable class?Rules?
+What is getter and setter method in java?
+When we use fully qualified name?
+Where we can access members of different access modifiers?
+Can a java source file contain more than one public class?
+Handle child type exception using it's parent class reference?
+Why we can't handle child type exception?
+Will JVM creates seperate object for parent in child obj creation?
+Why we can't handle error in java?
+Why we can't handle same exception more than one time?
+How to create Thread?
+Default identites of Threads?
+Multi threading vs multi tasking?
+Need of multi tasking?
+What is multi tasking?
+What is runnable state in thread life cycle?
+What is the super class of all classes in java application?
+When we cast object address into interface type reference variable?
+Why run can't throws interruptedException?
+Why we can't call run() explicitly?
+What is daemon thread?
+How to find the details of current thread?
+How to set identity to a thread?
+Diff bw sleep() and Join()?
+What is finalize method?
+What is final modifier in java?
+When JVM starts Garbage collector?
+What is garbage collector in java?
+Can we convert behaviour of main thread from non daemon to daemon?
+How to create daemon thread?
+Can we override static method in java?
+What is the use of throw keyword?
+WHy finalize method is protected?
+What is the use of system.gc()?
+Can we access static variable directly?
+Why we need to set path to JDK?
+Can we apply modifiers to local variable?
+How to generate random integers?
+What is serialization?
+What is transient modifier?
+What is Deserialization?
+Rules to create immutable class?
+What is immutable object in java?
+What is the process of serialization in has a relation?
+Can we call static method directly?
+What is local variable and it's limitation?
+What are the limitation of local inner class?
+What is inner class in java?
+Why can't we write serialize data into .txt file?
+What is anonymous inner class?
+How to pass interface object as a parameter?
+How to instantiate non static inner class?
+What is local inner class> advantage?
+What is array in java?
+How to access array elements?
+What is dif static and dynamic memory?
+What is diff bw array and collection?
+Hashset,LinkedHashset and TreeSet?
+Diff bw ArrayList and Vector?
+When we go for LinkedList instead of ArrayList?
+Diff bw Applets and swings?
+Diff bw Hashmap,LinkedHashMap,TreeMap?
+How to element store into hashtable?
