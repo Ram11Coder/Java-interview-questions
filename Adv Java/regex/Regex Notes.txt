@@ -1,0 +1,82 @@
+Regex tutorial:
+---------------
+What are regular expression?
+What is java regex?
+Matcher class?
+Matcher Class
+Pattern class
+Regex character class
+Regex Quantitiers
+Regex  metacharacters
+
+
+1. A regular expression is a sequence of characters that constructs a search pattern. When you search for data in a text. You can use this search pattern to describe what you are looking for
+
+Example:
+^[a-zA-Z0-9]{3,15}$
+
+
+^ -> Start of the line
+[] -> What are the character contains
+{} -> Size range of regex
+$ -> End of the line
+
+2.What is java regex:
+-------------------
+ The java regex is an API which is used to define a pattern for searching or manipulating Strings. It is widely used to define the constraints on strings such as password and email 
+ validation
+ 
+3.Matcher class:
+----------------
+boolean matches()
+boolean find()
+boolean find(int start)
+String group()
+int start()
+int end()
+int groupCount()
+
+4.Pattern class:
+----------------
+static pattern compile(String regex)
+Matcher matcher(charSequence input)
+static boolean matches(String regex)
+String spilit()
+String pattern() 
+int end()
+
+5.Regex character class
+-----------------------
+
+[abc] -> a,b or c {A simple class}
+[^abc] -> Any class except a,b or c {negation}
+[a-zA-Z] -> A through Z or a through z inclusive (Range)
+[a-d{m-p}] -> a through d or m through p (union)
+[a-z&&[def]] -> d,e or f (intersection)
+[a-z&&[^bc]] -> a through Z except b or c (Subtraction) 
+[a-z&&[^m-p]] ->a through z and not m to p (Subtraction)
+
+
+6.Regex Quantifies:
+-------------------
+
+x? -> x occurs once or not at all
+x+ -> x occurs more than one times
+x* -> x occur zero or more times
+x{n} -> x occur n times only
+x{n,} -> x occur n or more times only
+x{y,z} -> x occur at least y times but less than z times
+	
+
+7.Regex Metacharacters:(Short codes)
+-----------------------
+. -> it can be any character
+d -> Represents any digit
+D -> Represents any non digit
+s -> Represents any white space
+S -> Non white space character
+w -> It can be a word character
+W -> It can be a non word character
+b -> Represents a word boundary
+B -> It represents a non word boundary
+
