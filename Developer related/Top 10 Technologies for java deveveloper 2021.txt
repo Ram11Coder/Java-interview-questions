@@ -1,0 +1,11 @@
+Top 10 Technologies for java deveveloper 2021
+1.Devops
+2.microservice
+3.Spring Boot
+4.Andriod
+5.Git
+6.Junit
+7.Rest API
+8.Angular and React
+9.Apache Spark
+10.AWS

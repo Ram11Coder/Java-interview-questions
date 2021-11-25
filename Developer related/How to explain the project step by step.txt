@@ -1,0 +1,20 @@
+How to explain the project step by step:
+Introduction of project
+what is the adv of project
+what is features of project
+Abstraction of project
+Discuss about different modules in the project (Modules description)
+Specify which module you involved
+What are tools and technologies used to implement the project
+Which platform you worked on
+WHat is your role in your project
+WHat are the responsibilities in current project
+WHat are the challenges faced in the project
+How many team members in the project 
+How you contribute the project
+How much time project it took to complete
+
+Tips:
+Don't drag the answer
+Don't speak about your prev employees or current employees with natively
+Don't explain the project indepth

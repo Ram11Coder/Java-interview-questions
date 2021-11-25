@@ -1,0 +1,34 @@
+---------------------------------------
+OOPS vs POP
+----------------------------------------
+OOps is based on 2 main concepts such as Object and class.Objects are key to understanding oO technology.
+OOP approach focuses on data rather on the algorithm for handling data.since both data and functions that handle that data are 
+bundles within objects, no modifications can be done on the data by external functions.
+Considering prog dsign OOp folloes bottom -up approach .Ex; java,Python,perl,c++ etc
+
+POP:It views the problems as a sequence of things to be done and is based on the concept of procedure calls, in POP it might be diff
+to identify what data is used by which functions at times since global data is largely shared bw functions.Ex: POP lang are COBOL,PASCAL,COBOL,FORTAN lang
+
+----------------------------------------------
+	OOP					| 	POP
+----------------------------------------------
+1.Programs are divided into     1.In this programs are divided
+parts known as objects.		     into functions	
+----------------------------------------------
+2.The main focus of OOp is on   2.The main focus of POP is
+the data					    on the procedure
+----------------------------------------------
+3.Follows bootom-up approach    3.Follows Top-down approach
+----------------------------------------------
+4.It has access specifiers such 4.In this most func uses global data
+as public,private,protect,default	
+----------------------------------------------
+5.It provides data hiding,  	5.it does not have any access modifiers
+data associated with the 			POP does not provide any data security
+program.so security is 
+provide
+----------------------------------------------
+6.Ease of modifications    6.Modifications is difficult
+----------------------------------------------
+7.Ex: java ,PERL			7.Ex:C,Cobol etc
+---------------------------------------------

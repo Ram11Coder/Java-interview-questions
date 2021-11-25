@@ -1,0 +1,19 @@
+Devops is a term of group of concepts (it is not linked to one)
+It is a combination of  operation and developement engineers participate together entire life cycle of design to dev to production support 
+
+Devops is It mindset (That encourage communication,collaboration,integration,automation among sw dev and IT Operations to improve speed and quality of product)
+
+
+What are skills required to become a devops developer:
+-----------------------------------------------------
+Scripting/Prog lang ->(Python, Perl,Ruby )along with shell scripting
+Cloud -> AWS/AZURE/GCP
+GIT->SCM and ver
+Jenkins-> Build and test the application
+Chef/Ansible/Puppets -> Configuration management
+Integreation skills
+Soft skills
+Agile Methodology
+Linux/Unix
+Containerization->Dockers
+(Create,deploy,run the app using container)-> It deployed as one package

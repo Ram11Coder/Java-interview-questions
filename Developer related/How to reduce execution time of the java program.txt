@@ -1,0 +1,6 @@
+How to reduce execution time of the java program?
+1.Avoid creating unnecessary Objects and prefer lazy initialization
+2.Try to use standard libraries instead of writing your own from scratch
+3.Whenever possible try to use primitive types instead of wrapper class
+4.Use string carefully
+5.Algorithm implementation

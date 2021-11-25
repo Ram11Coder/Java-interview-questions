@@ -1,0 +1,15 @@
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+-Martin Golding
+
+Programming is a skill acquired by practice and example rather than from books.
+-Alan Turing
+
+7-common-programming-mistakes-that-every-beginner-must-avoid
+
+1. Learning Too Many Programming Languages, Frameworks, and Technology
+2. Comparison, Self Doubt, And Fear
+3. Writing Messy Code And Ignoring Code Quality
+4. Writing Code Without Plan
+5. Thinking You Know It All
+6. No Backup For Work
+7. Laziness in Doing Practice

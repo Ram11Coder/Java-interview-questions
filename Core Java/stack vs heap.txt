@@ -1,0 +1,13 @@
+stack vs heap
+
+1.stack memory is used to store local var and function call
+2.Each thread in java have own stack space -> command ==> (-xss(Jvm parameter))
+3.If no memory left in stack jvm will throw java.lang.stackoverflowError
+4.Variables stores in stacks are only visible to owner thread
+5.Stackmemory->Private memory
+
+1.Heaps -> Used to store objects in java 
+2.Heap size -> Jvm option -> -Xms and -Xmx
+3.If no memory left in heap jvm will throw java.lang.outofMemoryError
+4.Object creates in heaps are visibles to all other thread
+5.HeapMemory->Shared memory

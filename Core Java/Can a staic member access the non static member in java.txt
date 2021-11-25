@@ -1,0 +1,4 @@
+Can a staic member access the non static member in java?
+
+When the class loads static var and method will be initialized and assign some values but if you use instance var or method inside the static block then it will throw compiler error.
+Reason: instance var and method can access only runtime so compiler unable to figure it out in compile time.

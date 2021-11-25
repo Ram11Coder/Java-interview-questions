@@ -1,0 +1,14 @@
+Cloud computing interview questions:
+1.What is cloud?
+2.What is cloud computing?
+3.Why cloud computing is important?
+4.What are the basic characteristic of cloud computing?
+5.What is cloud service?
+6.What are the features of cloud service?
+7.What is advantages of cloud service?
+8.What is Disadvantages of cloud service?
+9.How many types of cloud service?
+10.How many types of deployment models are used in cloud?
+11.Why does org needs to manage workload?
+12.Which services are provided by window azure OS?
+13.Explain public and private cloud?

@@ -1,0 +1,22 @@
+What is public static void main(String[] arg){}?
+
+Whether the class main method or not ,properly declared or not these checking are not responsible of compiler.
+JVM will check at runtime.
+
+if not properly declared then throws NosuchmethodError:main
+
+public -> it is used to call by jvm from anywhere.
+static -> Without creating object jvm has to call the method
+void  -> It does not any value to jvm
+main -> name of the method which is configured inside JVM
+
+String[] arg -> Command line arguments
+we can customize the behaviour of main method
+
+Example:(Valid main method)
+--------
+public class Main {
+	final synchronized public static void main(String[] args) {
+		System.out.println("Main method");
+	}
+}

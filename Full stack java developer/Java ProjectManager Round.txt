@@ -1,0 +1,18 @@
+java project manager round:
+1.What is your project architeture?
+2.What are your roles and responsibilities in the project?
+3.What are the technologies you worked on?
+4.What are the  tools you used in your project?
+5.Which ide used for developement?
+6.Which db you worked on?
+7.What are the server/platform's you worked on?
+8.Which environmen/OS you worked on?
+9.What are the reporting tool used?
+10.Have ever been involved into design?
+11.WHat is the build management tool used in your proj?
+12.What is volum of data against ehich your application runs?
+13.How do you manage security like managing your credentials/data encryption?
+14.How do you write unit Test cases?
+15.What is your team size?
+16.Do you have experience in production support?
+17.What are corporate training attended?
