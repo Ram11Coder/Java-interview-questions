@@ -1,0 +1,45 @@
+Agile -> Iterative and incremental methodlogy
+In Agile same SDLC process will repeated 
+incremented -> Adding new features
+
+Adv :
+-----
+1.Customer no need to wait longtime for product
+2.Customer will get product every 2 or 3 week
+3.Change Requirement at any stages
+4.Collaboration work(Easily communicate with diff team members)
+
+
+Agile principle:
+1.Customer satisfication
+2.We can accept any change at any time
+3.Collaborative work
+
+Scrum is a framework to build a software using agile methodlogy
+
+Scrum team -> 5 to 10 members
+(Product owner , scrum master,Dev team,QA team)
+
+Product owner -> Communicate with end user or stake holder to collect the data
+User requirement ,product features or user stories
+Accept or reject the status of the product
+
+
+Scrum master -> Drives the agile principles
+
+
+Dev team -> develop the product
+QA -> Test the software
+
+Sprint -> particular duration of time to complete the user stories
+Duration -> 2to3 weeks
+
+Sprint planning meeting :
+In sprint planning meeting what are the particular user story will have to deal with particular sprint.
+
+What is scrum meeting?
+It is a daily standup meeting.They will discuss about 
+what you did yesterday
+what are you going to do today
+What are the problem faced
+It is connect by scrum master only
