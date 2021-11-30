@@ -1,0 +1,9 @@
+8 steps to building a succesful project
+1.Determine project Goal
+2.Determine target audience
+3.Find core App Features
+4.Choose technology
+5.Design the UI/UX
+6.Build core App feature
+7.Test with Audience
+8.Iterate

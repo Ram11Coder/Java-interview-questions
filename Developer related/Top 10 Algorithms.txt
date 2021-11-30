@@ -1,0 +1,11 @@
+Top 10 Algorithms
+1.Math concept->Lograthimic concept
+2.Graph traversal(DFS,BFS)
+3.Binary search
+4.Sliding window technique(2 pointers)-> subarray
+5.Recursion (Teaches us logic adn implementing it is easily)
+6.Inversing binary tree and reversing linkedlist(Can solve many sub problem in LL)
+7.Suffix tree(Adv DS)-> String problems
+8.Heaps(Repeated find smallest or largest elements)
+9.Dynamic programming (Helps to solve complex problems)
+10.Sorting algorithms (Quick sort and merge sort)
