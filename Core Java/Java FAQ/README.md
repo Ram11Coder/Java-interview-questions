@@ -65,12 +65,15 @@ Why we need to convert string into primitive?
 Why we need to convert into into String?
 just take a simple Calculator GUI as example
 
- -----------------------
-|Enter num1 : 			|
-|Enter num2 : 			|
-|Result     :           |
-|			Add			|
- -----------------------
+` -----------------------`
+<br>
+Enter num1 : 			      
+Enter num2 : 	      	<br>
+Result     :          
+<br>
+			Add button			             
+<br>
+` ----------------------- `
 INput field called as textfield
 
 To collect the integer there is no seperate integer input field or double ip field or float ip field etc.. no such type of input field availble in any technology
