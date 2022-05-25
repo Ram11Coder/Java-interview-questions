@@ -112,3 +112,28 @@ new Child();
 }
 
 super() - WIll be the first statement in constructor and call the parent class
+
+
+### 8. Can we overload main?
+
+Main method can overload with different signature  
+JVM looking for only standard main method only 
+public static void main(String args[]){
+}
+overloadded main method:
+static void main(){}
+static void main(){int args}
+remaining main method  you have to execute externally
+
+### 9. What is logical error?
+No Compile and runtime error, but provide the unexpected output.
+
+ex:
+int x=10,y=3;
+float f=x/y;//logical error
+
+### 10. What is syntatical error?
+syntatical error is compiler error
+Programming language have set of rules , if we violate the rules will get compilation error
+
+
