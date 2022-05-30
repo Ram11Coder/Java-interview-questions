@@ -191,3 +191,33 @@ extends		override	modify
 all the above things are updation
 it restrict the updation permission of object
 
+### 14.Diff bw applets and Swing
+Both are used to generate GUI
+Applets:
+- Run by html
+- Applet components are OS dependent
+Swings(javax.swing)
+- Run by JVM 
+- Components creation logic developed by java
+
+
+### 15.ArrayList vs Vector
+ArrayList
+- Implements List
+- Ordered
+- Duplicates allowed 
+- Since JDK 1.2
+- Not Synchronised by default
+- If we want synchonised list then use collections class have 
+synchronizedList(List)
+- No capacity configuration
+Vector
+- Implements List
+- Ordered
+- Duplicates allowed 
+- Since JDK 1.0
+- Synchronised by default
+- Configure capacity 
+
+### 16.When we go for Linkedlist instread of arraylist?
+When insertion and deletion is frequently then go for linkedlist
