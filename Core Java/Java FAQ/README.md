@@ -137,3 +137,57 @@ syntatical error is compiler error
 Programming language have set of rules , if we violate the rules will get compilation error
 
 
+
+### 11 Can we define main() inside abstract class?
+Abstract class -> class which is not have full definition, partial definition of object
+concrete and abstract methods are allowed
+
+It is acceptable to use main method inside abstract class
+example:
+
+<pre>
+abstract class Abstract {
+	/**
+	 * Below 2 method required object to call
+	 */
+	void test() {}
+	abstract void test1();
+
+	public static void main(String[] args) {
+		System.out.println("Inside Abstarct!!");
+	}
+}
+
+public class AbstractMain {
+	public static void main(String[] args) {
+		System.out.println("Inside main!!");
+		Abstract.main(args);
+	}
+}
+
+</pre>
+
+### 12 Canthis() vs super()
+this()
+1.used to access current class constructor
+2. Use only inside another constructor of same class
+3.Call to this() must be the first statement
+
+this()
+1.used to access parent class constructor from child class constructor
+2.Use only inside child class constructor
+3.Call to this() must be the first statement
+
+
+### 13 CanFinal is a keyword
+apply to variable,class ,method,
+<pre>
+	final keyword
+      /		 |	\
+class		method	variable
+|		|		|	
+extends		override	modify
+</pre>
+all the above things are updation
+it restrict the updation permission of object
+
