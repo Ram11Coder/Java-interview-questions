@@ -221,3 +221,65 @@ Vector
 
 ### 16.When we go for Linkedlist instread of arraylist?
 When insertion and deletion is frequently then go for linkedlist
+
+### 17.What is boxing in java?
+Wrapper class - Converting primitive data into object
+2 ways to do boxing operation
+1.Static method
+Example:
+byte b=12;
+Byte x=Byte.valueOf(b);
+2.constructor
+COnstructor once object is created then constructor retuen the object
+example:
+byte b=123;
+Byte bt=new Byte(b);
+
+
+pojo bean  mutable and immutable class properties always private### 17.
+
+### 18.What is setter and getter methods?
+Property is need to secure, so if we want to communicate we need to use getter and setter methods
+
+### 19.Why we need to set path to jdk?
+
+- OS have CUI and GUI
+
+OS have 2 command modes
+1. internal commands - While installing OS befault few softwares are recogonised by DOS
+so need to set path to access the sw
+ex: mspaint,notepad
+
+2. External command
+JDK command contains many .exe files 
+until set the path we will message 
+ex:
+'java' is not recognized as an internal or external command
+
+### 20.Can we apply modifiers to local variables?
+No, local variable is inside the block only, no modifiers like static,public,private applicable
+<pre>
+class Sample
+{
+public void test{
+static int a;// static is global scope and local var scope is inside the block only
+private int a;//any level of modifier no use beacuse local var scope is inside the block only
+}
+</pre>
+
+### 21.What is immutable class and rules?
+Once object has been created the state can not be modified 
+because the variable are final variables
+
+example 
+class sample{
+int x;
+}
+value assigned to 10 then the property value can not be changed it is fixed
+
+Rules:
+1. Class is public
+2. Properties are private and final
+3. Must initialize all the properties through constructor
+4. Setter not allowed
+5. Only getter allowed
