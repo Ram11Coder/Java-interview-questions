@@ -283,3 +283,27 @@ Rules:
 3. Must initialize all the properties through constructor
 4. Setter not allowed
 5. Only getter allowed
+
+### 22.What is exception or runtime error?
+
+Application executung at runtime facing any error called as exception or runtime error
+
+
+### 23.What is class/Abstract class/Interface?
+class : complete definition of object
+only have concrete methods
+
+Abstract class :partial definition of object
+concrete method and abstract method are allowed
+specification - no body
+definition - have body
+
+Interface : complete definition of object
+only abstract methods
+
+
+### 24.What is default exception handler?
+whenever exception has raised in our program it will create a expection object and store the details
+Exception Object -> details information of exception
+we have to handle the exception
+if not then jvm will pass control to default exception handle to handle the exception object 
