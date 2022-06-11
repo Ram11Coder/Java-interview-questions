@@ -307,3 +307,69 @@ whenever exception has raised in our program it will create a expection object a
 Exception Object -> details information of exception
 we have to handle the exception
 if not then jvm will pass control to default exception handle to handle the exception object 
+
+### 25.Where we use try with multiple catch block?
+When try block occuring more than one exception
+
+### 26.why when exception occur control won't go back to try block , because subsequent step also occur further exception
+example:
+<pre>try{
+1.File read
+2. File write
+3. File transfer
+}
+catch(FileNotFoundException e){}
+catch(SecurityException e){}
+catch(NetworkException e){}
+</pre>
+
+### 27.what is abstract class and why class become abstract?
+
+
+concrete class - complete representation of object 
+All methods must have body
+
+Abstract class - partial representation of object
+it contains abstract and concrete methods
+abstract methods - Whenever we unable to provide definition
+
+
+### 28.Why abstract can't be final and static?
+
+<pre>
+abstract class Parent{
+final abstract void m1();//illegal modifier
+static abstract void m2();// static is common and abstract is specific ,we can not combine both static and non-static together
+}
+
+class Child extends Parent{}
+</pre>
+
+Rule:
+If there is any specification in the parent class you have to implement (definition -> overriding) in the child class
+
+Final - restrict the update permission(Fixed object)
+So final abstract void m1();
+we are overriding in the class is not possible 
+illegal combination of final and abstract
+
+
+Static - common functionality object , more than one object can access
+Non static - specific to one object
+Abstract - specific to particular child
+
+
+### 29.can a final class extends abstract class?
+yes with some condition
+
+class AbstractClass{
+abstract void m1();
+abstract void m2();
+
+}
+final class FinalClass extends AbstractClass{
+}
+
+FinalClass has to override all methods in the AbstractClass
+Because FinalClass is final , we can not override further so all the specification should be update
+
