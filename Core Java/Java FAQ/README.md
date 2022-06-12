@@ -373,7 +373,15 @@ final class FinalClass extends AbstractClass{
 FinalClass has to override all methods in the AbstractClass
 Because FinalClass is final , we can not override further so all the specification should be update
 
-### 30.
+### 30. Static vs Dynamic memory allocation?
+Always memory will be allocated in runtime
+
+Static - Fixed in Size
+ex: Primitive, Arrays
+
+Dynamic Memory- Size varies
+ex: Collections
+
 
 ### 31.Can we define main() inside interface?
 in Jdk 1.7 not allowed
@@ -432,3 +440,54 @@ Parent exends GrandParent{
 </pre>
 Protected class then entire life it will be visible to their family members only
 Whenever outside person trying access will get error such type of object not present in this world
+
+### 36. Diff bw hashmap, LinkedHashmap and TreeMap?
+HashMap - Does not maintain insertion order
+LinkedHashmap - It will maintain insertion order of elements
+TreeMap - Maintain sorted order of keys(elements not in ascending order)
+
+### 37.How element store into hashtable?
+Searching and processing element is bit fast compared with linkedList
+
+LinkedList
+17->32->76->9->81->93
+Need to iterate whole list to find the element
+
+hashtable
+element % size => index
+17%6 -> 
+|0|->
+|1|->
+|2|->32
+|3|->9->81->93
+|4|->76
+|5|->17
+
+### 38. What is the diff bw Array and Collections?
+Array
+- Static in size
+- Array can store only homogenous elements
+- Array hold primitive and Objects
+
+Collections
+- Dynamic in size
+- Collections can store hetrogenous elements 
+- Hold only Object
+
+### 39. Diff bw hashSet, LinkedHashSet and TreeSet?
+Duplicates not allowed
+HashSet
+- Intro in 1.2
+- Not maintain Insertion order
+
+LinkedHashSet
+- Inro in 1.4
+- Maintain insertion order
+
+TreeSet
+- SortedSet
+- Maintain Ascending order
+
+### 40. Method Overriding? Why can't we override constructor?
+
+
