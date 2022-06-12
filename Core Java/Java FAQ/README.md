@@ -373,3 +373,62 @@ final class FinalClass extends AbstractClass{
 FinalClass has to override all methods in the AbstractClass
 Because FinalClass is final , we can not override further so all the specification should be update
 
+### 30.
+
+### 31.Can we define main() inside interface?
+in Jdk 1.7 not allowed
+in Jdk 1.8 is allowed static method but non-static method not allowed
+
+
+### 32.Can we place instance variable inside the interface?
+Not allowed 
+Reason:
+We can not create object for interface [No constructor definition]
+interface In{
+int x; //public static final int x;
+}
+if you create the variable inside the interface bydefault public static final
+
+### 33.How to instantiate class/AbstractClass/Interface?
+
+|Object creation of |Using "new" keyword|Through child class |
+:---: | :---:|:---: |
+Class |yes via new keyword|Yes through child class|
+Abstract Class |no because class is partial definition|Yes through child class|
+Interface |No|No|
+
+By creating of object constructor calling is important but can not create constructor inside the interface
+What is the useof constructor inside the abstract class?
+- To initialize the variable of abstract class if present
+Note: If uu create a object for child class then parent class object also will be created 
+
+### 34.Can we call static method directly?
+yes in some situation 
+if the static method inside the same class we can access directly
+
+static method outside oof class then access via class name or object
+
+### 35.WHy class can't be private and protected?
+class - representation of object
+private - visible inside the class only
+private class then object is also private so no one can communicate with this 
+Java is working way to communicate one object to another 
+
+if object is private then no use to communicate it
+example
+<pre>
+private  class GrandParent{
+}
+Parent exends GrandParent{
+}
+</pre>
+Protected - access within the hierarchy order(Family member)
+example
+<pre>
+protected  class GrandParent{
+}
+Parent exends GrandParent{
+}
+</pre>
+Protected class then entire life it will be visible to their family members only
+Whenever outside person trying access will get error such type of object not present in this world
