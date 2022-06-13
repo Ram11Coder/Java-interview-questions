@@ -490,4 +490,6 @@ TreeSet
 
 ### 40. Method Overriding? Why can't we override constructor?
 
-
+Defining same name and signature in child class
+override - rewriting the logic 
+constructor belong same class so we can not override to child class
