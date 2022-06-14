@@ -423,7 +423,7 @@ private class then object is also private so no one can communicate with this
 Java is working way to communicate one object to another 
 
 if object is private then no use to communicate it
-example
+##### example
 <pre>
 private  class GrandParent{
 }
@@ -431,7 +431,7 @@ Parent exends GrandParent{
 }
 </pre>
 Protected - access within the hierarchy order(Family member)
-example
+##### example
 <pre>
 protected  class GrandParent{
 }
