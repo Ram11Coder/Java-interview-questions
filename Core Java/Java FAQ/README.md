@@ -493,3 +493,10 @@ TreeSet
 Defining same name and signature in child class
 override - rewriting the logic 
 constructor belong same class so we can not override to child class
+
+### 41 What is inheritance?
+- Defining object with help of existing object
+Features
+- Accessing existing object or functionality
+- Adding new features 
+- Updating existing object functionality
