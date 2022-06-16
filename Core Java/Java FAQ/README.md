@@ -500,3 +500,51 @@ Features
 - Accessing existing object or functionality
 - Adding new features 
 - Updating existing object functionality
+
+### 42 Types of inheritance?
+Java Supports
+- Single inheritance
+- MultiLevel Inheritane
+- Hierarchical inheritance
+Java does'nt support
+- Multiple Inheritance
+- Hybrid Inheritance
+
+### 42 Multiple inheritance using interfaces?
+interfaces is set of specifications
+inteface extends another interface not extends reason is class and abstractClass only can do implementation not interface
+<pre>
+Interface(I1)		Interface(I1)
+	|fun()		 	|fun()
+		    |(Extends)
+		Interface(I3)
+		    |fun()
+		    |(Implements)
+	Abstract class or class
+</pre>
+
+### 43 When we call super() explicitly?
+- As per java rule if it is a normal var then we can access directly,if it is a non-static var access via this keyword
+- super() -invoking parent class constructor with child class
+- In the process of child object creation want to provide initial value to parent class we use super method from child class constructor
+
+example
+<pre>
+class Parent{
+int x;
+Parent(int x){
+this.x=x;
+}
+
+}
+class Child extends Parent{
+Child(int x){
+super(x);
+}
+}
+public static void main(String args[]){
+new Child(10);
+}
+
+
+</pre>
