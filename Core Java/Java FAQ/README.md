@@ -548,3 +548,16 @@ new Child(10);
 
 
 </pre>
+
+### 44.checked and unchecked exception?
+
+unchecked exception
+- Java application is not connected to outer resource
+- Compiler not check the exception whether handling or not handling
+- Handling exception is optional
+- If we are handling then no abnormal termination
+- If not then abnormal termination
+- Compiler will not involve any action
+checked exception
+- Checked by compiler
+- IF don't handle compiler throw error
