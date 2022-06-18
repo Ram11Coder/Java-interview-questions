@@ -561,3 +561,14 @@ unchecked exception
 checked exception
 - Checked by compiler
 - IF don't handle compiler throw error
+
+### 45 Why we can not handle child type exception after handling parent type?
+<pre>
+try{
+}
+catch(Exception e){
+}
+catch(ArthmeticExeption e){
+}
+</pre>
+Basically can not handle same exception more than one time, Because parent class caught the child exception so then no need to handle child exception again
