@@ -598,3 +598,44 @@ example:
 NosuchMethodError
 OutOfMemoryError
 ClassDefNotFoundError
+
+### 48. Why can't we handle same exception more than one time>
+
+<pre>
+	try {
+		int a=10,b=10;
+		System.out.println(a/b);
+		int x=10,y=10;
+		System.out.println(x/y);
+	} catch (ArithmeticException e) {
+		// TODO: handle exception
+	} catch (ArithmeticException e) {
+		// TODO: handle exception
+	}
+	</pre>
+In both scenerios first catch block going to execute so 2nd catch block is unreachable code
+### 49. Will jvm create a seperate object for parent in child obj creation?
+<pre>
+
+class Parent{
+Parent() {
+System.out.println("Parent is "+this);
+	}
+}
+class Child extends Parent{
+ Child() {
+System.out.println("Child is "+this);
+	}
+}
+public class Test {
+public static void main(String[] args) {
+	new Child();
+}
+}
+</pre>
+outPut:
+Parent is arrays.Child@76ccd017
+Child is arrays.Child@76ccd017
+
+So ans is no parent object is created
+
