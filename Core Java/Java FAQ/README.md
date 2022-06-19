@@ -572,3 +572,29 @@ catch(ArthmeticExeption e){
 }
 </pre>
 Basically can not handle same exception more than one time, Because parent class caught the child exception so then no need to handle child exception again
+
+### 46. How can we handle child type exception using its parent class reference variable?
+It is possible of runtime polymorphism concept
+
+<pre>
+try{
+int a=10/0;
+}catch(ArithmeticException ae){}
+catch(RuntimeException re){}
+catch(Exception e){}
+catch(Throwable t){}
+
+
+</pre>
+Example we are handling catch with Exception
+In compile time compiler does not know which exception it pointing
+So runtime time when exception raise using runtime binding concept JVM will check
+
+### 47.Why we can't handle errors in java?
+Exception is runtime error , once the app is running we will get some exception
+Error : 
+In case of error we can not run the application
+example:
+NosuchMethodError
+OutOfMemoryError
+ClassDefNotFoundError
