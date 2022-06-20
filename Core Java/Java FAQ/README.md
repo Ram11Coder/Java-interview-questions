@@ -639,3 +639,15 @@ Child is arrays.Child@76ccd017
 
 So ans is no parent object is created
 
+
+### 50. Can we override static method in java?
+Static means common
+Static method is belongs to specific class , can not override by child class
+<pre>
+class samsung{
+static void m1(){}
+}
+class edge extends Samsung{
+static void m1(){}
+}
+</pre>
