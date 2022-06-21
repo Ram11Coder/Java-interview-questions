@@ -651,3 +651,26 @@ class edge extends Samsung{
 static void m1(){}
 }
 </pre>
+
+### 51.What is immutable object in java?
+Once object has been created state can not be modified
+Example: String
+
+<Pre>
+			String s1="Hello",s2="World";
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		s1=s2;
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		s2=s1.concat(s2);//It will create new object pointing to s2
+		System.out.println(s2);
+		System.out.println(s1.concat(s2));
+	</pre>
+	
+### 52.Rules to create immutable class?
+- Make a class public and final (Not allow child class to change the state of object)
+- Initialize the values inside the class as final private
+- Using constructor to initialize the final private variable
+- Don't allow setter method
+- (Note : If no updation allowed then how new values are assigned to the variable ex: String)
