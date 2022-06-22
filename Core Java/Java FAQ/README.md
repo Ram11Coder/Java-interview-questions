@@ -674,3 +674,34 @@ Example: String
 - Using constructor to initialize the final private variable
 - Don't allow setter method
 - (Note : If no updation allowed then how new values are assigned to the variable ex: String)
+
+
+### 53.What is GC?
+- Garbage collector is daemon thread,runs behind the application
+- it is a service thread, provide the service 
+- To whom provide service
+- For all non-Daemon threads which is executes application logic
+- It will remove non-reference object in heap memory and free up the space
+- JVM only start and stop the GC thread
+
+### 54. How to create daemon thread?
+
+There is a method available in Thread class to convert non-Daemon to daemon
+ex: setDaemon(boolean b){}
+
+<pre>
+
+class Test extends Thread{
+psvm(){
+Test thread =new Test();
+thread.setDaemon(true);
+}
+}
+</pre>
+note:
+- what is daemon and non-Daemon threads?
+- All the thread create as soon as behave like non-Daemon
+### 55.can we convert behaviour of main thread from non-Daemon to daemon?
+
+Before starting thread only  we can change the behaviour from non-daemon to Daemon
+So only user thread behaviour can change to non-Daemon to daemon, main thread behaviour can not change
