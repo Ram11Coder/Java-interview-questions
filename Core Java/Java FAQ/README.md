@@ -705,3 +705,9 @@ note:
 
 Before starting thread only  we can change the behaviour from non-daemon to Daemon
 So only user thread behaviour can change to non-Daemon to daemon, main thread behaviour can not change
+
+### 56.When JVM starts GC thread?
+- JVM starts the GC thread when heap memory running low, less stress on processer and increase the performance
+- In multithread already so many threads are running if GC is running automatically then deecrease the performance, so the GC thread not run frequently
+Only it requires JVM will starts gc thread
+
