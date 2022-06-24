@@ -711,3 +711,11 @@ So only user thread behaviour can change to non-Daemon to daemon, main thread be
 - In multithread already so many threads are running if GC is running automatically then deecrease the performance, so the GC thread not run frequently
 Only it requires JVM will starts gc thread
 
+### 57.When we use runnable interface to create thread?
+ 
+In IS-A relation if the parent class extends the Thread class then child class also get the thread functionality
+
+in IS-A relationship we only want to create the thread for child, we can not extends thread class because multiple inheritance not support in java 
+
+So implementing Runnable interface only child class able to create the thread
+
