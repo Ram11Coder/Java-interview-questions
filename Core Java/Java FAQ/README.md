@@ -719,3 +719,44 @@ in IS-A relationship we only want to create the thread for child, we can not ext
 
 So implementing Runnable interface only child class able to create the thread
 
+### 57. How to create thread in java?
+- Using Thread class
+- - Using Runnable interface
+We need to override the run() method provide user defined thread logic
+Thread implements runnable interface too
+
+### 58. What are the default identities of threads?
+
+For each thread, Thread constructor creates default identies ex: Thread - 0
+Using thread identites only JVM will invoke the specific thread to be executed
+
+
+### 59. Multi-tasking vs Multi-Threading?
+Multi-tasking
+- Performing N number of tasks required N number of process space required 
+example:
+A person have multiple place multiple tasks needs to do
+switch one place to another take more cpu power
+Multi-Threading
+- Performing N number of tasks required one process space required 
+example:
+A person have Single room multiple tasks needs to do
+
+note:
+tasks -threads
+room - process 
+### 60. Need of multi-tasking?
+- Optimum utilization of CPU
+context switching between multiple process
+
+### 61.What is multi-tasking>
+- Performing more than one task parallelly or concurrently called as multi-tasking
+- There is no multi-tasking processer in the world, one processor can execute one instruction at a time
+- In CPU there is Control unit that is take care of multi-tasking
+- It uses
+  - Time Slicing (It will set some time frame for specific task)
+  - Context switching  (It will switch one context space to another context space)
+
+### 62. What is super class of all classes and why?
+Object class
+- class is representation of object if u create any object how it behave like a object means it getting behaviour from Object class , so need to apply object behaviour to all class each time
