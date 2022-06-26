@@ -805,3 +805,50 @@ public class Test {
 }
 
 </pre>
+
+### 64. Why run can't throw interruptedException?
+
+<pre>
+
+class ThreadTest implements Runnable {
+	@Override
+	public void run() throws InterruptedException {
+
+		/**
+		 * Exception InterruptedException is not compatible with throws clause in
+		 * Runnable.run()
+		 */
+
+		Thread.sleep(1000);
+
+		System.out.println("Running....");
+	}
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+		ThreadTest t1 = new ThreadTest();
+		Thread t = new Thread(t1);
+		t.start();
+	}
+
+}
+
+</pre>
+
+### 
+
+One of Rule of overriding 
+we Should not change the prototype of run() method in runnable interface
+That's why we can throw InterruptedException because that is not defined in runnable interface
+
+### 65. Wjy we can not call run() method explicitly?
+Thread.start() to call run() method 
+
+1. To allocate thread space in memory
+2. Fetch run() method logic
+3. Execute in the allocated space
+4. IF we directly call the run() method it act like normal method only
+5. we can create the thread space logic in program but it hard to implement that why we go for available resource
+
