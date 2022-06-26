@@ -760,3 +760,48 @@ context switching between multiple process
 ### 62. What is super class of all classes and why?
 Object class
 - class is representation of object if u create any object how it behave like a object means it getting behaviour from Object class , so need to apply object behaviour to all class each time
+
+### 63. When we cast object address into interface type?
+- Interface is standard set of specification 
+- How it is allowing internally because of object of casting 
+
+<pre>
+
+
+interface Lenovo {
+	void spec();
+}
+
+class LocalSeller implements Lenovo {
+	@Override
+	public void spec() {
+		System.out.println("LocalSeller Specification");
+
+	}
+}
+
+class RamLaptops implements Lenovo {
+	@Override
+	public void spec() {
+		System.out.println("RamLaptops Specification");
+
+	}
+}
+
+public class Test {
+	static void calling(Lenovo l) {
+		l.spec();
+	}
+
+	public static void main(String[] args) {
+		LocalSeller ls = new LocalSeller();
+
+		ls.spec();
+		calling(ls);
+
+		RamLaptops r = new RamLaptops();
+		calling(r);
+	}
+}
+
+</pre>
