@@ -843,7 +843,7 @@ One of Rule of overriding
 we Should not change the prototype of run() method in runnable interface
 That's why we can throw InterruptedException because that is not defined in runnable interface
 
-### 65. Wjy we can not call run() method explicitly?
+### 65. Why we can not call run() method explicitly?
 Thread.start() to call run() method 
 
 1. To allocate thread space in memory
@@ -852,3 +852,104 @@ Thread.start() to call run() method
 4. IF we directly call the run() method it act like normal method only
 5. we can create the thread space logic in program but it hard to implement that why we go for available resource
 
+### 66. What is daemon thread?
+It is running as background thread to provide service to non-daemon thread
+Non-daemon thread executes fore-ground of logic
+All the non-daemon thread execution is completed then JVM forcefully stop the daemon thread
+
+
+
+### 67.How to find the details of current thread?
+Thread.CurrentThread() 
+
+
+
+### 68. How to set identity to a thread?
+using child class constructor to set the thread identity 
+<pre>
+public class Test extends Thread {
+	public Test(String s) {
+		super(s);
+	}
+
+	@Override
+		public void run() {
+		System.out.println(Thread.currentThread().getName());
+
+		}
+	public static void main(String[] args) {
+		Test t1 = new Test("Test-Thread");
+		t1.start();
+		System.out.println(t1.getName());
+		System.out.println(Thread.currentThread().getName());
+	}
+
+}
+
+
+</pre>
+
+
+### 69. Diff bw sleep() and Join()?
+
+Sleep() - Waits specific time frame and do the process
+Join() - It will wait till other thread complete work
+<pre>
+public class Test extends Thread {
+
+	@Override
+	public void run() {
+		for (int i = 1; i <= 1000; i++) {
+			System.out.println(i + "Hello world..");
+		}
+
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		Test t1 = new Test();
+		t1.start();
+
+		Thread.sleep(10);// it make main thread sleep for 10 ms
+
+		// t1.join();//Main thread will wait till t1 complete it job
+		System.out.println(t1.getName());
+		System.out.println(Thread.currentThread().getName());
+	}
+
+}
+</pre>
+
+
+### 70.What is finalize() method?
+How to release the resource before destruction of object
+
+### 71. What is the use of 'throw' keyword?
+- User can create custom checked and unchecked exception
+- Custom exception using Extends exception
+- Custom unchecked exception using runtime exception
+
+class MyException extends Exception{
+checked
+}
+
+Throw keyword used throw user defined exception mostly and predefined exception also , it used throw exception object externally
+Predefined object exception object created automatically, JVM throw exception object
+User defined exception we only create and throw exception using throw keyword
+
+### 72. Why finalize method is protected?
+
+GC thread invoke finalize() method before destruction of any object, implicitly finalize method executes
+Analogy:
+We can allow our property to ourself and heritance that why finalize make it as protected, we are not outside people destroy our property
+
+real time : Our object can be destroy process only allow (IS-A relation class only not others)
+
+If required we can override to increase the priviledge like protected to public also 
+
+
+### 73. What is the use of System.gc()?
+
+It runs the GC externally
+
+JVM calls the GC thread unnecessarily because it reduces the performance 
+JVM calls GC thrad only heap memory occupied heaviliy
