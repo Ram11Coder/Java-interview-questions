@@ -953,3 +953,25 @@ It runs the GC externally
 
 JVM calls the GC thread unnecessarily because it reduces the performance 
 JVM calls GC thrad only heap memory occupied heaviliy
+
+### 74. What is serialization?
+It is converting object state into persistent state
+We usually store the data permanently go with file system r db
+
+Using Object stream to convert object into serialization file (Binary data with extension .ser)
+ex: ObjectOutputStream using
+
+Which call u want to serialize must implement serializable interface
+
+### 75.What is transient modifier?
+If you make variable as transient then it will not participate on serialization process
+When we try serialize it will get default value like 0
+
+### 76. What is de-serialization ?
+Converting persistent state into object state 
+ex: ObjectInputStream
+
+### 77. WHat is the process of serialization in Has-A relation?
+
+If One class dependends another class in a Has-a relationship then both class should implements serializable
+OtherWise get NotSerializableException
