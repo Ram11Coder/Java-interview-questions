@@ -975,3 +975,105 @@ ex: ObjectInputStream
 
 If One class dependends another class in a Has-a relationship then both class should implements serializable
 OtherWise get NotSerializableException
+
+### 78.What is inner class?
+- Defining class inside another class called as inner class
+<pre>
+class Outer{
+
+classs Inner{
+}
+
+}
+
+</pre>
+
+Adv:
+- Setting dependencies of object
+- Class file generate Outer$inner.class
+- If you want to access the inner class need to get the permission of outer class
+
+### 79.What are the limitation of  local inner class?
+
+Local inner class - defining class inside the block /method/constructor called as local inner class
+
+- Scope of local inner class inside the block only, object should create inside the block only
+- Access modifier not applicable for inside the block because no use for modifiers
+- local inner class can not be static
+
+
+### 80.What is annonymous inner class?
+- Provide definition for interfaces
+- defining class with no identity, inside the method only
+- Compiler will create  a class file inner$1.class
+
+- If you want to define 2 class with same identity with single java application we can go fo local inner class 
+Ofcourse we can use fully qualify name and packages 
+
+<Pre>
+class Test{
+
+static{
+class LocalInner{
+logic
+}
+}}
+
+
+static{
+class LocalInner{
+logic
+}
+}}
+
+
+</Pre>
+
+- There is no colision in class file Test.class, Test$1LocalInner.class, Test$2LocalInner.class
+
+
+### 81.How to instantiate non-static inner class?
+
+<pre>
+class Outer{
+
+class Inner{
+void m(){
+}
+}
+main(String a[]){
+
+Outer obj1 =new Outer();
+Outer.Inner obj2=obj1.new Inner();
+obj2.m();
+}
+
+}
+</pre>
+
+### 82. How to pass interface object as a parameters?
+- By passing interface as annonymous inner class .
+
+<pre>
+
+interface In {
+	void m1();
+}
+
+public class Sample {
+
+	static void catchInterface(In in ) {
+		in.m1();// calling m1 method in annonymous inner class
+	}
+
+	public static void main(String[] args) {
+		Sample.catchInterface(/* annonymous inner class */new In() {
+			@Override
+			public void m1() {
+				System.out.println("Inside m1() ...");
+
+			}
+		});
+	}
+}
+</pre>
