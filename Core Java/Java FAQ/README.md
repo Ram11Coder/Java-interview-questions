@@ -1077,3 +1077,15 @@ public class Sample {
 	}
 }
 </pre>
+
+### 82.Diff between ClassNotDefFoundError and ClassNotFoundException?
+
+- ClassNotDefFoundError
+ex: Test t=new Test();// Hardcoded the class objet
+For hardcoded class files in runtime there is no .class file avaialble then will get runtime exception as NoClassDefFoundError
+
+- ClassNotFoundException
+ex: Object obj=Class.forName(arg[0]).newInstane();
+At runtime .class file not available for dynamically provided class names
+execution : java Test Student
+RE : ClassNotFoundException
